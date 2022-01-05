@@ -85,7 +85,7 @@
         })
     }
 
-    function del(idsepatu){
+    function del(kodeikan){
         if (window.confirm("Mau Hapus Data?")===true) {
             axios.delete(`http://localhost:8080/DataIwak/Ikan/${kodeikan}`).then((result) => {
                 alert("berhasil")
